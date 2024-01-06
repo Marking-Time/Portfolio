@@ -10,3 +10,4 @@
 - Python backends
 - dice game
 - Benford
+- AI News site
