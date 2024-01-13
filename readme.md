@@ -7,8 +7,12 @@
 
 ## Features:
 - html/css
-- Python backends
+- Python backends - API ideas
 - dice game
-- Benford
 - AI News site
 - Car lot site
+- Small Code:
+  - toLeet  
+  - toRoman
+  - Benford
+
