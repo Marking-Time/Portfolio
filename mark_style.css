@@ -1,9 +1,12 @@
-mark_color_green {
+.mark_color_green {
     background-color:#4E937A;
+    height: 100px;
 }
-mark_color_blue {
+.mark_color_blue {
     background-color: #849483;
+    height: 100px;
 } 
-mark_color_tae_green {
+.mark_color_tae_green {
     background-color: #C7F2A7;
+    height: 100px;
 }
