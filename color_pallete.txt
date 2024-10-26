@@ -1,0 +1,10 @@
+++++++++++++++++++++++
+complimentary pallete in green
+++++++++++++++++++++++
+hex colors
+#1efc00  - green
+#50fc00 - green
+#37fc00 - green
+
+#de00fc - purple analogue
+++++++++++++++++++++++++++++++++
