@@ -1,10 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ROADSTORE;
   
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0.8)), url("horseRider.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,13 +26,23 @@ body, html {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
+    color: white;
+    background-color: #11ffee00;
     text-align: center;
     cursor: pointer;
+    border:solid darkgray;
   }
   
   .hero-text button:hover {
     background-color: #555;
     color: white;
   }
+
+  @font-face {
+    font-family: 'ROADSTORE';
+    src: url('ROADSTORE.woff2') format('woff2'),
+        url('ROADSTORE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
