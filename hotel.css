@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: ROADSTORE;
+}
   
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0.8)), url("horseRider.png");
