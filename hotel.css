@@ -51,7 +51,9 @@ body, html {
     font-size: 30px;
     background-color: #c9c344;
 }
-/* .footer-left{} */
+
 footer {
     background-color: #c9c344;
+    font-size: 11px;
+    text-align: center;
 }
