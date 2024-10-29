@@ -52,8 +52,11 @@ body, html {
     background-color: #c9c344;
 }
 
-footer {
+footer {    
     background-color: #c9c344;
     font-size: 11px;
     text-align: center;
+}
+.subfooter {
+  font-family: Arial, Helvetica, sans-serif;
 }
