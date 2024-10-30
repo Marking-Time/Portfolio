@@ -1,0 +1,35 @@
+.mark_color_green {
+    background-color:#4E937A;
+    /* height: 100px; */
+}
+.mark_color_blue {
+    background-color: #849483;
+    /* height: 100px; */
+} 
+.mark_color_tae {
+    background-color: #C7F2A7;
+    /* height: 100px; */
+}
+.mark_color_plant {
+    background-color: #613045;
+    /* height: 100px; */
+}
+
+/* Complimentary pallete */
+.mark_color_gr1 {
+    background-color: #59ab6a;
+}
+.mark_color_gr2 {
+    background-color: #59ab62;
+}
+.mark_color_gr3 {
+    background-color: #59ab72;
+}
+.mark_color_pur {
+    background-color: #ab599a;
+}
+
+/* .mark-hero {
+
+
+} */
