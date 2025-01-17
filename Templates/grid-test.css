@@ -11,15 +11,26 @@
 }
 .logo {
     grid-area: a;
+    background-color: green;
 }
 .header {
     grid-area: b;
+    background-color: green;
 }
 .nav {
     grid-area: c;
+    background-color: green;
 }
 .content {
     grid-area: e;
+    background-color: #91ff00;
+    font-size: large;
+    padding:2em;
+}
+.content img {
+    width: 300px;
+    float: left;
+    padding-bottom: 1em;
 }
 .footer {
     grid-area: g;
