@@ -17,7 +17,9 @@
 .logo{
     display: grid;
     grid-area: a;
-    background-color: #718729;
+/*    background-color: #718729;*/
+    background: linear-gradient(to right,#298752,#718729);
+
     color: #ffffff;
     font-size: 40px;
     justify-items: center;
@@ -57,7 +59,9 @@
 .nav-bottom{
     display: grid;
     grid-area: f;
-    background-color: #718729;
+/*    background-color: #718729;*/
+    background: linear-gradient(to right,#298752,#718729);
+
 }
 /*.nav-right{
     display: grid;
@@ -87,7 +91,7 @@
   grid-gap: 20px;
   padding-left: 30px;
   padding-right: 30px;
-grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 .card{
     background-color: #3d836a;
