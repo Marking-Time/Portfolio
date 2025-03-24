@@ -137,8 +137,18 @@ body{
 .fil{
 height: 100vh;
 }
-
-
+/*For Templates - Examples*/
+.layout{
+    font: system;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap:20px;
+    img{
+        height: 150px;
+        width: 150px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .sub-content{
