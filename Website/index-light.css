@@ -7,6 +7,9 @@
 #complex{
     display: none;
 }
+#data{
+    display: none;
+}
 html{
     scroll-behavior: smooth !important;
 }
