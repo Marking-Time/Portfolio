@@ -21,6 +21,8 @@ function simple_top(){
 }
 function templates_top(){
 	document.getElementById("templates").style.display = "none";
+	document.getElementById("templates").style.display = "none";
+
 }
 function complex_top(){
 	document.getElementById("complex").style.display = "none";
