@@ -10,6 +10,9 @@
 #data{
     display: none;
 }
+#talk{
+    display: none;
+}
 html{
     scroll-behavior: smooth !important;
 }

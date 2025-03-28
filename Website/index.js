@@ -11,6 +11,9 @@ function complex(){
 function data(){
 	document.getElementById("data").style.display = "block";
 }
+function talk(){
+	document.getElementById("talk").style.display = "block";
+}
 
 // functions called from content to hide content
 function simple_top(){
@@ -24,4 +27,7 @@ function complex_top(){
 }
 function data_top(){
 	document.getElementById("data").style.display = "none";
+}
+function talk_top(){
+	document.getElementById("talk").style.display = "none";
 }
