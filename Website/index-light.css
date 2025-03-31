@@ -19,6 +19,9 @@ html{
 body{
     background-color: #ffe494;
 }
+.flags{
+    display: inline;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(9,1fr);
