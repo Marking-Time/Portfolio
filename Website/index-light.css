@@ -21,6 +21,9 @@ body{
 }
 .flags{
     display: inline;
+    img{
+        
+    }
 }
 .wrapper {
     display: grid;
