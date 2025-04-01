@@ -19,6 +19,7 @@ html{
 body{
     background-color: #ffe494;
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(9,1fr);
@@ -60,8 +61,10 @@ body{
     img{
         height: 20px;
         width: 30px;
+
     }
 }
+
 .nav{
     display: grid;
     grid-area: c;
