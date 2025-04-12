@@ -1,0 +1,132 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+/*    grid-template-rows: repeat(5,1fr);*/
+/*    grid-template-rows: repeat(5,1fr);*/
+grid-template-rows: 75px auto auto auto 50px;
+    grid-template-areas: 
+        "a b b b b b c"
+        "d e e e e e f"
+        "d e e e e e f"
+        "d e e e e e f"
+        "d g g g g g f";
+}
+
+/*Thiss is the method for adding a font
+it isn't used in this page
+@font-face {
+    font-family: arial;
+    src: url(arial.ttf);
+}*/
+
+.logo {
+    grid-area: a;
+    display: grid;
+/*    background-color: green;*/
+    justify-items: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #3d836a;
+    color: #ffffff;
+    }
+.header {
+    grid-area: b;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+/*    background-color: green;*/
+    font-size: 40px;
+    background-color: #3d836a;
+    color: #ffffff;
+}
+.nav {
+    grid-area: c;
+    display: grid;
+/*    margin-top:2px;*/
+    padding-top: 2px;
+    justify-items: center;
+    align-items: center;
+/*    background-color: green;*/
+    background-color: #3d836a;
+    color: #ffffff;
+
+}
+
+.nav-style{
+    ul {
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px; 
+    }
+}
+.content {
+    grid-area: e;
+/*    background-color: #91ff00;*/
+    font-size: large;
+    padding:2em;
+    background-color: #C7F2A7;
+    color: black;
+    font-family: sans-serif;
+}
+.content img {
+    width: 300px;
+    float: left;
+    padding-bottom: 1em;
+}
+.footer {
+    grid-area: g;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+/*    background-color: darkblue;*/
+    color: white;
+    background-color: #3d836a;
+    color: #ffffff;
+}
+.left{
+    grid-area: d;
+    display: grid;
+    background-color: #e3fad3;
+    color: #black;
+}
+.right{
+    grid-area: f;
+    display: grid;
+    background-color: #e3fad3;
+    color: #black;
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+/*      grid-template-columns: 1fr 1fr;*/
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);  
+      grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "e e"
+        "g g";
+    }
+    .nav{
+        grid-area: c;
+/*        display: inline-grid;  */
+/*        display: inline;*/
+        justify-content:center;
+        display: inline-grid;
+    }
+    .nav ul li {
+/*        display:grid-inline;*/
+/*      display: flex;*/
+      justify-content: center;
+      display: inline-grid;
+/*      display: inline-grid;*/
+/*        display: inline-grid;*/
+/*        align-items: center;*/
+    }
+  }
+  
