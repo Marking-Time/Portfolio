@@ -1,0 +1,65 @@
+html {
+	/*font: 1.2em "Fira Sans", sans-serif;*/
+	/*font: cursive, sans-serif;*/
+	font-family: cursive;
+
+}
+body{
+    background-color: #ffffff;
+}
+.logo {
+	background-color: #fff;
+	color: black;
+}
+
+.header {
+	background: #000000;
+	background-color: #fff;
+	color: black;
+}
+.flags {
+	background-color: #fff;
+}
+
+.nav {
+	background-color: #ffffff;
+	color: black;
+	ul {
+		list-style: none;
+	}
+	a {
+		background-color: #fff;
+		color: black;
+	}
+	a:hover{
+		background-color: black;
+	}
+}
+
+.content{
+	background-color: ;
+	color: ;
+}
+
+.inner-grid {
+	background: #fff;
+	/*background-color: ;*/
+	color: black;
+}
+
+.card {
+	background-color: #dde4ed;
+	color: black;
+	a {
+		color: black;
+	}
+	a:hover {
+		color: ;
+	}
+}
+
+.footer {
+    background-color: white;
+    color: black;
+}
+
