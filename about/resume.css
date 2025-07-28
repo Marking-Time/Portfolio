@@ -10,14 +10,18 @@
 	grid-area: a; 
 }
 .flags{
-	display: grid;
+	display: inline;
 	grid-area: b;
 	img{
 		/*display: inline;*/
+		padding: 5px;
 		height: 20px;
 		width: 30px;
 	}
 }
+/*.grid-item{
+	padding: 5px;
+}*/
 .pictures{
 	display: grid;
 	grid-area: c;
