@@ -1,5 +1,43 @@
-.qr{
+#esp {
+	display: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 75px auto auto  auto auto auto auto auto 50px;
+    grid-template-areas: 
+        "a a a a a a a b b"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c"
+        "c c c c c c c c c";
+}
+
+.header{
+	display: grid;
+	grid-area: a;
+}
+.flags{
+	display: inline-grid;
+	/*display: grid;*/
+	/*display: inline-block;*/
+	grid-area: b;
+	
+	img{
+/*		display: grid;
+		grid-area: b;*/
+		height: 20px;
+		width: 30px;
+		border-right: 5px;
+	}
+}
+/*.qr{
 height: 200px;
 width: 200px;
 align-content: "right";
-}
+}*/
