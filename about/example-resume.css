@@ -17,16 +17,19 @@
         "c c c c c c c c c"
         "c c c c c c c c c";
 }
+#eng{
+	display: grid;
+}
 
 .header{
 	display: grid;
-	grid-area: a;
+	grid-area:a;
 }
 .flags{
-	display: inline-grid;
+	display: grid;
 	/*display: grid;*/
 	/*display: inline-block;*/
-	grid-area: b;
+	grid-area:b;
 	
 	img{
 /*		display: grid;
