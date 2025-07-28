@@ -19,12 +19,14 @@
 		width: 30px;
 	}
 }
-/*.grid-item{
-	padding: 5px;
-}*/
+
 .pictures{
-	display: grid;
+	display: inline;
 	grid-area: c;
+	img{
+		height: 200px;
+		width: 200px;
+	}
 }
 .content{
 	display: grid;
