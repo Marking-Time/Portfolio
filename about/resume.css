@@ -2,18 +2,27 @@
 	display: grid;
 	grid-template-areas: 
 	"a a a a a a b" 
-	"c c c c c c c";
+	"c c c c c c c"
+	"d d d d d d d";
 }
 .header{
 	display:grid;
 	grid-area: a; 
 }
 .flags{
-	display: inline-grid;
+	display: grid;
 	grid-area: b;
 	img{
 		/*display: inline;*/
 		height: 20px;
 		width: 30px;
 	}
+}
+.pictures{
+	display: grid;
+	grid-area: c;
+}
+.content{
+	display: grid;
+	grid-area: d;
 }
