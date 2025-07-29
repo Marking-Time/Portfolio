@@ -1,0 +1,34 @@
+.wrapper{
+	display: grid;
+	grid-template-areas: 
+	"a a a a a a b" 
+	"c c c c c c c"
+	"d d d d d d d";
+}
+.header{
+	display:grid;
+	grid-area: a; 
+}
+.flags{
+	display: inline;
+	grid-area: b;
+	img{
+		/*display: inline;*/
+		padding: 5px;
+		height: 20px;
+		width: 30px;
+	}
+}
+
+.pictures{
+	display: inline;
+	grid-area: c;
+	img{
+		height: 200px;
+		width: 200px;
+	}
+}
+.content{
+	display: grid;
+	grid-area: d;
+}
